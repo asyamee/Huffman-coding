@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Сжиматор</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;800&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<main>
+			<h1>Сжиматор файлов</h1>
+			<div class="form">
+				<div class="side-wrapper toCompress">
+					<h2>Сжать файл</h2>
+					<label for="file-to-compress" class="file-input">Загрузить файл</label>
+					<input type="file" id="file-to-compress" class="file-window" />
+					<button class="submit">Сжать</button>
+				</div>
+				<div class="side-wrapper toDecompress">
+					<h2>Разжать файл</h2>
+					<label for="file-to-decompress" class="file-input">Загрузить файл</label>
+					<input type="file" id="file-to-decompress" class="compressed-window" />
+					<label for="key-to-decompress" class="file-input">Загрузить ключ</label>
+					<input type="file" id="key-to-decompress" class="key-window" />
+					<button class="decompress">Разжать</button>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="indexBeautiful.js"></script>
+</html>
